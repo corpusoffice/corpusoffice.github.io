@@ -10,7 +10,7 @@ German syntax, Corpus linguistics, Linguistic alternations, Digital communicatio
 2024 Best Paper Award [올해의논문상], Koreanische Gesellschaft für Deutsche Sprach- und Literaturwissenschaft [한국독일어문학회]
 
 ## Teaching
-ntroduction to German Linguistics, German Syntax, Corpus Linguistics
+Introduction to German Linguistics, German Syntax, Corpus Linguistics
 
 ## Contact
 Email: basice@hanyang.ac.kr
