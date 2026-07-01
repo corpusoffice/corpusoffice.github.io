@@ -1,5 +1,3 @@
-</> Markdown
-
 # Soonha Hwang
 Assistant Professor of German Linguistics  
 Department of German Language and Literature  
