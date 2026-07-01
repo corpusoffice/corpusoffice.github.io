@@ -35,4 +35,4 @@ Email: basice@hanyang.ac.kr
 
 ## Selected Links
 
-- [publications](publications/)
+- [publications](/publications/)
