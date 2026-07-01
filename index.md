@@ -1,7 +1,5 @@
 <img src="/assets/profile.jpg" alt="Soonha Hwang" width="220">
 
-## Academic Profiles
-
 <div style="display: flex; align-items: flex-start; gap: 32px;">
 
 <div style="flex: 1;"> <h2>Academic Profiles</h2> <ul> <li><a href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a></li> <li><a href="https://orcid.org/0009-0004-8275-9690">ORCID</a></li> </ul> </div>
