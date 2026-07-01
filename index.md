@@ -1,3 +1,5 @@
+<img src="/assets/profile.jpg" alt="Soonha Hwang" width="220">
+
 ## Academic Profiles
 
 - [ResearchGate](https://www.researchgate.net/profile/Soonha-Hwang-2)
