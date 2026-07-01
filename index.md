@@ -12,9 +12,6 @@ German syntax, Corpus linguistics, Linguistic alternations, Digital communicatio
 ## Teaching
 Introduction to German Linguistics, German Syntax, Corpus Linguistics
 
-## Contact
-Email: basice@hanyang.ac.kr
-
 ## Selected Links
 
 - [Publications](/publications/)
