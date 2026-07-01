@@ -3,3 +3,9 @@
 title: Soonha Hwang
 description: German Linguistics | Corpus Linguistics | Pragmatics
 theme: minima
+
+header_pages:
+  - publications.md
+  - projects.md
+  - teaching.md
+  - contact.md
