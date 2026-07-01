@@ -6,4 +6,4 @@ permalink: /awards/
 
 ## Awards
 
-Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereotypisierung. (with Sarnai Chuluunbat-Kath, Chaomin Zheng and Karin Pittner). In: _Studia Linguistica_.
+2024 Best Paper Award, Koreanische Gesellschaft für Deutsche Sprach- und Literaturwissenschaft (올해의논문상, 한국독일어문학회)
