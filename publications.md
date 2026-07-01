@@ -28,8 +28,8 @@ Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereoty
 
 2023.12. Metasprachliche Funktionen von _Das ist ein Witz_: Eine Korpusanalyse anhand des Bundestags- und Zeitungskorpus. In: _Koreanische Zeitschrift für Germanistik_ 64(4), 147–166.
 
-2015.06. Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben. Mit Minhaeng Lee und Kwang-sin Jee. In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
+2015.06. Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben. (with Minhaeng Lee und Kwang-sin Jee). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
 
 # Conference Papers
 
-2024.11. MultiPragEval: Multilingual Pragmatic Evaluation of Large Language Models. Mit Dojun Park, Jiwoo Lee, Seohyun Park, Hyeoyun Jeong, Youngeun Koo, Seonwoo Park und Sungeun Lee. In: _Proceedings of the 2nd GenBench Workshop on Generalisation (Benchmarking) in NLP_.
+2024.11. MultiPragEval: Multilingual Pragmatic Evaluation of Large Language Models. (with Dojun Park, Jiwoo Lee, Seohyun Park, Hyeoyun Jeong, Youngeun Koo, Seonwoo Park und Sungeun Lee). In: _Proceedings of the 2nd GenBench Workshop on Generalisation (Benchmarking) in NLP_.
