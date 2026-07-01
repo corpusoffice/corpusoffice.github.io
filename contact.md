@@ -4,5 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-# Projects
-2
+## Email
+basice@hanyang.ac.kr
+
+## Office
+02-2220-0763
