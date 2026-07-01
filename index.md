@@ -1,3 +1,8 @@
+## Academic Profiles
+
+- [ResearchGate](https://www.researchgate.net/profile/Soonha-Hwang-2)
+- [ORCID](https://orcid.org/0009-0004-8275-9690)
+
 ## Position and Institution
 Assistant Professor of German Linguistics  
 Department of German Language and Literature  
