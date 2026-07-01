@@ -34,3 +34,7 @@ Einführung in die Germanistische Linguistik, Deutsche Syntax, Korpuslinguistik
 
 ## Contact
 Email: basice@hanyang.ac.kr
+
+## Selected Links
+
+- [Publications](publications/)
