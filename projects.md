@@ -4,7 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
 ## 2026-2027
 Eine korpuslinguistische Studie zu den Determinanten der optionalen Schwa-Tilgung im Deutschen, Hanyang University (HYU).  
 ## 2025-2026
