@@ -12,6 +12,8 @@ Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereoty
 
 2024.06. Pronominale und nominale Anredeformen: Eine sprachvergleichende Studie Chinesisch – Koreanisch – Mongolisch – Deutsch. with Karin Pittner, Sarnai Chuluunbat-Kath, Xiao Xiao and Chaomin Zheng. In: _Deutsche Sprache_ 52(1), 1–37.
 
+
+
 ## Korean Journal Articles
 
 2025.12. Potenziale und Grenzen von KI-basierter Erstellung niveaugerechter Lerntexte: Evaluation der ChatGPT-basierten Niveausteuerung deutscher Texte. (with Gayeon Choi, Jiwoo Lee, Jiin Jeong and Sungeun Lee). In: _Deutsch als Fremdsprache in Korea_ 57, 125–154.
@@ -29,6 +31,8 @@ Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereoty
 2023.12. Metasprachliche Funktionen von _Das ist ein Witz_: Eine Korpusanalyse anhand des Bundestags- und Zeitungskorpus. In: _Koreanische Zeitschrift für Germanistik_ 64(4), 147–166.
 
 2015.06. Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben. (with Minhaeng Lee and Kwang-sin Jee). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
+
+
 
 ## Conference Papers
 
