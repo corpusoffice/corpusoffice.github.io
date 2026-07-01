@@ -1,11 +1,18 @@
 ---
 layout: page
-title: Prof. Dr. Soonha Hwang
+title: Soonha Hwang
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; width: 100%;">
 
   <div style="flex: 1;">
+    <h2>Position and Institution</h2>
+    <p>
+      Assistant Professor of German Linguistics<br>
+      Department of German Language and Literature<br>
+      Hanyang University
+    </p>
+
     <h2>Academic Profiles</h2>
     <ul>
       <li><a href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a></li>
@@ -18,11 +25,6 @@ title: Prof. Dr. Soonha Hwang
   </div>
 
 </div>
-
-## Position and Institution
-Assistant Professor of German Linguistics  
-Department of German Language and Literature  
-Hanyang University
 
 ## Research Interests
 German syntax, Corpus linguistics, Linguistic alternations, Digital communication, Comparative Linguistics  
