@@ -35,3 +35,4 @@ German syntax, Corpus linguistics, Linguistic alternations, Digital communicatio
 - [Projects](/projects/)
 - [Teaching](/teaching/)
 - [Contact](/contact/)
+- [Awards](/awards/)
