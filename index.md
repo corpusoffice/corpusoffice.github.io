@@ -1,8 +1,21 @@
-<div style="display: flex; align-items: flex-start; gap: 32px;">
+---
+layout: page
+title: Soonha Hwang
+---
 
-<div style="flex: 1;"> <h2>Academic Profiles</h2> <ul> <li><a href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a></li> <li><a href="https://orcid.org/0009-0004-8275-9690">ORCID</a></li> </ul> </div>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; width: 100%;">
 
-<div> <img src="/assets/profile.jpg" alt="Soonha Hwang" width="220"> </div>
+  <div style="flex: 1;">
+    <h2>Academic Profiles</h2>
+    <ul>
+      <li><a href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a></li>
+      <li><a href="https://orcid.org/0009-0004-8275-9690">ORCID</a></li>
+    </ul>
+  </div>
+
+  <div style="flex-shrink: 0; text-align: right;">
+    <img src="/assets/profile.jpg" alt="Soonha Hwang" width="220">
+  </div>
 
 </div>
 
