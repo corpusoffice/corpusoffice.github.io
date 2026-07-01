@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-# International Journal Articles
+## International Journal Articles
 
 Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereotypisierung. (with Soonha Hwang, Sarnai Chuluunbat-Kath, Chaomin Zheng). In: _Studia Linguistica_.
 
@@ -12,7 +12,7 @@ Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereoty
 
 2024.06. Pronominale und nominale Anredeformen: Eine sprachvergleichende Studie Chinesisch – Koreanisch – Mongolisch – Deutsch. with Karin Pittner, Sarnai Chuluunbat-Kath, Xiao Xiao and Chaomin Zheng. In: _Deutsche Sprache_ 52(1), 1–37.
 
-# Korean Journal Articles
+## Korean Journal Articles
 
 2025.12. Potenziale und Grenzen von KI-basierter Erstellung niveaugerechter Lerntexte: Evaluation der ChatGPT-basierten Niveausteuerung deutscher Texte. (with Gayeon Choi, Jiwoo Lee, Jiin Jeong and Sungeun Lee). In: _Deutsch als Fremdsprache in Korea_ 57, 125–154.
 
@@ -30,6 +30,6 @@ Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereoty
 
 2015.06. Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben. (with Minhaeng Lee and Kwang-sin Jee). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
 
-# Conference Papers
+## Conference Papers
 
 2024.11. MultiPragEval: Multilingual Pragmatic Evaluation of Large Language Models. (with Dojun Park, Jiwoo Lee, Seohyun Park, Hyeoyun Jeong, Youngeun Koo, Seonwoo Park and Sungeun Lee). In: _Proceedings of the 2nd GenBench Workshop on Generalisation (Benchmarking) in NLP_.
