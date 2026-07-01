@@ -1,4 +1,4 @@
-# Soonha Hwang
+## Position and Institution
 Assistant Professor of German Linguistics  
 Department of German Language and Literature  
 Hanyang University
