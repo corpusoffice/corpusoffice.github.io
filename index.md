@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Soonha Hwang
+title: Prof. Dr. Soonha Hwang
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; width: 100%;">
