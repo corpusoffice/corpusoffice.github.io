@@ -27,7 +27,7 @@ title: Soonha Hwang
 </div>
 
 ## Research Interests
-German syntax, Corpus linguistics, Linguistic alternations, Digital communication, Comparative Linguistics  
+Corpus linguistics, German linguistics, Syntax, Linguistic alternations, Digital communication, Comparative Linguistics  
 
 ## Selected Links
 
