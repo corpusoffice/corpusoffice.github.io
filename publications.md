@@ -6,7 +6,7 @@ permalink: /publications/
 
 ## International Journal Articles
 
-Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereotypisierung. (with Sarnai Chuluunbat-Kath, Chaomin Zheng, Karin Pittner). In: _Studia Linguistica_.
+Forthcoming. Ist nihao nur ein Grußwort? Ausgrenzung durch sprachliche Stereotypisierung. (with Sarnai Chuluunbat-Kath, Chaomin Zheng and Karin Pittner). In: _Studia Linguistica_.
 
 2024.12. Genitivvariation bei sekundären Präpositionen: Eine korpusbasierte Analyse am Beispiel von _innerhalb_ und _außerhalb_. with Karin Pittner. In: _Muttersprache_ 134(4), 297–317.
 
