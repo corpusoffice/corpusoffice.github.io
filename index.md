@@ -34,5 +34,6 @@ German syntax, Corpus linguistics, Linguistic alternations, Digital communicatio
 - [Publications](/publications/)
 - [Projects](/projects/)
 - [Teaching](/teaching/)
-- [Contact](/contact/)
 - [Awards](/awards/)
+- [Contact](/contact/)
+
