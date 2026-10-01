@@ -5,17 +5,18 @@ title: Soonha Hwang
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 48px; margin-bottom: 48px;">
 
-  <div style="flex: 1;">
+  <div style="flex: 1; min-width: 0;">
 
-    <p style="font-size: 1.25rem; line-height: 1.6; margin-top: 0;">
+    <p style="font-size: 1.22rem; line-height: 1.6; margin-top: 0;">
       <strong>Assistant Professor of German Linguistics</strong><br>
+      Department of German Language and Literature<br>
       Hanyang University
     </p>
 
-    <p style="font-size: 1.08rem; line-height: 1.8; margin-top: 30px;">
+    <p style="font-size: 1.06rem; line-height: 1.8; margin-top: 28px;">
       I study <strong>variation and structural choice in German</strong>,
       with a particular focus on syntax, word order, and argument structure.
-      My work combines corpus linguistics and quantitative methods
+      My research combines corpus linguistics and quantitative methods
       with theoretically motivated linguistic analysis.
     </p>
 
@@ -36,7 +37,7 @@ title: Soonha Hwang
       src="/assets/profile.jpg"
       alt="Soonha Hwang"
       width="210"
-      style="border-radius: 6px;"
+      style="border-radius: 8px;"
     >
   </div>
 
@@ -49,7 +50,7 @@ title: Soonha Hwang
 Word Order · Argument Structure · Constructional Alternations · Computational Methods
 
 
-## Current Projects
+## Current Research
 
 **Relative Clause Extraposition**  
 Corpus-based analysis of constituent position, length, and extraposition in German.
