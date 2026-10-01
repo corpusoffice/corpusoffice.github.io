@@ -1,5 +1,6 @@
 title: "Soonha Hwang"
-description: "German Linguistics · Corpus Linguistics · Syntax"
+description: "German Syntax · Corpus Linguistics · Linguistic Variation"
+author: Soonha Hwang
 
 theme: minima
 
@@ -9,11 +10,5 @@ header_pages:
   - teaching.md
   - awards.md
   - contact.md
-
-author:
-  name: "Soonha Hwang"
-
-minima:
-  skin: classic
 
 show_excerpts: false
