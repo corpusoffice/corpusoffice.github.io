@@ -1,10 +1,19 @@
 title: "Soonha Hwang"
-description: "German Linguistics | Corpus Linguistics | Syntax"
+description: "German Linguistics · Corpus Linguistics · Syntax"
+
 theme: minima
 
 header_pages:
   - publications.md
   - projects.md
   - teaching.md
-  - contact.md
   - awards.md
+  - contact.md
+
+author:
+  name: "Soonha Hwang"
+
+minima:
+  skin: classic
+
+show_excerpts: false
