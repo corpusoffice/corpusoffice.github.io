@@ -15,27 +15,25 @@ Forthcoming. Ist _nihao_ nur ein Grußwort? Ausgrenzung durch sprachliche Stereo
 2024.06. [Pronominale und nominale Anredeformen: Eine sprachvergleichende Studie Chinesisch – Koreanisch – Mongolisch – Deutsch](https://doi.org/10.37307/j.1868-775X.2024.01.02). (with Karin Pittner, Sarnai Chuluunbat-Kath, Xiao Xiao and Chaomin Zheng). In: _Deutsche Sprache_ 52(1), 1–37.
 
 
-
 ## Korean Journal Articles
 
-2025.12. [Potenziale und Grenzen von KI-basierter Erstellung niveaugerechter Lerntexte: Evaluation der ChatGPT-basierten Niveausteuerung deutscher Texte](10.31302/KGDaF.57.5). (with Gayeon Choi, Jiwoo Lee, Jiin Jeong and Sungeun Lee). In: _Deutsch als Fremdsprache in Korea_ 57, 125–154.
+2025.12. [Potenziale und Grenzen von KI-basierter Erstellung niveaugerechter Lerntexte: Evaluation der ChatGPT-basierten Niveausteuerung deutscher Texte](https://doi.org/10.31302/KGDaF.57.5). (with Gayeon Choi, Jiwoo Lee, Jiin Jeong and Sungeun Lee). In: _Deutsch als Fremdsprache in Korea_ 57, 125–154.
 
-2025.02. [Aufnahme und Perspektiven koreanischer Kulturinhalte in Deutschland: Am Beispiel von K-Pop, K-Filmen und K-Dramen in Deutschland](10.23039/ndl.2025..64.125). (with Youngho Jung and Min Jung Oh). In: _Neuere Deutsche Literatur_ 64, 125–147.
+2025.02. [Aufnahme und Perspektiven koreanischer Kulturinhalte in Deutschland: Am Beispiel von K-Pop, K-Filmen und K-Dramen in Deutschland](https://doi.org/10.23039/ndl.2025..64.125). (with Youngho Jung and Min Jung Oh). In: _Neuere Deutsche Literatur_ 64, 125–147.
 
 2024.12. [Genitiv-/Dativ-Alternation von _wegen_: Computerlinguistische Methoden für DaF-Lernende](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003147807). In: _Deutsch als Fremdsprache in Korea_ 55, 207–229.
 
 2024.08. [A Study of Dative Alternation in Written and Spoken German Registers Focusing on the Verb _schreiben_](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003116031). In: _Language and Information_ 28(2), 1–20.
 
-2024.06. [Wortstellungsprinzip in den deutschen Zwillingsformeln _Adverb und Adverb_: Semantische Kriterien, Häufigkeit und kulturspezifische Faktoren](10.24814/kgds.2024..49.61). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 49, 61–92.
+2024.06. [Wortstellungsprinzip in den deutschen Zwillingsformeln _Adverb und Adverb_: Semantische Kriterien, Häufigkeit und kulturspezifische Faktoren](https://doi.org/10.24814/kgds.2024..49.61). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 49, 61–92.
 
-2024.03. [Typen der Konjunktionaladverbien in atypischen Positionen und Probleme bei der Wortartenklassifikation: Fokussierung auf die Beispiele von _trotzdem_, _dennoch_, _deshalb_ und _deswegen_](10.24830/kgd.32.1.1). In: _Deutsche Sprach- und Literaturwissenschaft_ 32(1), 1–26.
+2024.03. [Typen der Konjunktionaladverbien in atypischen Positionen und Probleme bei der Wortartenklassifikation: Fokussierung auf die Beispiele von _trotzdem_, _dennoch_, _deshalb_ und _deswegen_](https://doi.org/10.24830/kgd.32.1.1). In: _Deutsche Sprach- und Literaturwissenschaft_ 32(1), 1–26.
 
-2023.12. [Metasprachliche Funktionen von _Das ist ein Witz_: Eine Korpusanalyse anhand des Bundestags- und Zeitungskorpus](10.1007/s12205-023-2104-7). In: _Koreanische Zeitschrift für Germanistik_ 64(4), 147–166.
+2023.12. [Metasprachliche Funktionen von _Das ist ein Witz_: Eine Korpusanalyse anhand des Bundestags- und Zeitungskorpus](https://doi.org/10.1007/s12205-023-2104-7). In: _Koreanische Zeitschrift für Germanistik_ 64(4), 147–166.
 
-2015.06. [Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben](10.24814/kgds.2015..31.99). (with Minhaeng Lee and Kwang-sin Jee). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
-
+2015.06. [Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben](https://doi.org/10.24814/kgds.2015..31.99). (with Minhaeng Lee and Kwang-sin Jee). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
 
 
 ## Conference Papers
 
-2024.11. [MultiPragEval: Multilingual Pragmatic Evaluation of Large Language Models](10.18653/v1/2024.genbench-1.7). (with Dojun Park, Jiwoo Lee, Seohyun Park, Hyeoyun Jeong, Youngeun Koo, Seonwoo Park and Sungeun Lee). In: _Proceedings of the 2nd GenBench Workshop on Generalisation (Benchmarking) in NLP_.
+2024.11. [MultiPragEval: Multilingual Pragmatic Evaluation of Large Language Models](https://doi.org/10.18653/v1/2024.genbench-1.7). (with Dojun Park, Jiwoo Lee, Seohyun Park, Hyeoyun Jeong, Youngeun Koo, Seonwoo Park and Sungeun Lee). In: _Proceedings of the 2nd GenBench Workshop on Generalisation (Benchmarking) in NLP_.
