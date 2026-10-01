@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soonha Hwang | German Syntax · Corpus Linguistics · Linguistic Variation</title>
+<meta name="description" content="German Syntax · Corpus Linguistics · Linguistic Variation">
+<link rel="canonical" href="https://corpusoffice.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --ink:#1b2230; --muted:#5b6578; --line:#dde1e8;
+  --accent:#2c4bd6; --accent-soft:#e6ebfc;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'Instrument Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#12161f;--surface:#1a1f2b;--ink:#e8ebf2;--muted:#9aa3b5;--line:#2a3141;--accent:#8ea2ff;--accent-soft:#232b4a}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 28px}
+
+/* nav */
+header{border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:20px 0;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-size:1.25rem;font-weight:500;text-decoration:none;letter-spacing:.01em}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{text-decoration:none;font-size:.95rem;color:var(--muted);padding:4px 0;border-bottom:1px solid transparent;transition:color .15s,border-color .15s}
+nav ul a:hover{color:var(--ink);border-color:var(--accent)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1fr 260px;gap:64px;align-items:center;padding:84px 0 56px}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.8rem,6vw,4.4rem);line-height:1.05;letter-spacing:-.02em;margin:0 0 20px}
+.role{margin:0 0 26px;color:var(--muted);font-size:1rem}
+.role strong{color:var(--ink);font-weight:600;display:block}
+.lede{font-family:var(--serif);font-size:1.3rem;line-height:1.55;max-width:34em;margin:0 0 32px}
+.lede b{font-weight:500;background:linear-gradient(transparent 62%,var(--accent-soft) 62%)}
+.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-size:.92rem;font-weight:500;padding:9px 18px;border-radius:6px;border:1px solid var(--line);background:var(--surface);transition:border-color .15s,background .15s}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(1.1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.primary{color:#12161f}}
+.portrait{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px;background:var(--line);display:block}
+
+/* signature: topological fields */
+.fields{padding:40px 0 72px}
+.fields h2,.section h2{font-family:var(--serif);font-weight:400;font-size:1.7rem;margin:0 0 6px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 28px;max-width:46em;font-size:.97rem}
+.sentence{display:grid;grid-template-columns:auto auto auto auto minmax(0,1fr);border:1px solid var(--line);background:var(--surface);border-radius:6px;overflow:hidden}
+.field{all:unset;box-sizing:border-box;cursor:pointer;padding:22px 20px 14px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;gap:18px;transition:background .15s}
+.field:last-child{border-right:0}
+.field .w{font-family:var(--serif);font-size:clamp(1.05rem,2.2vw,1.5rem);line-height:1.3}
+.field .n{font-size:.78rem;color:var(--muted);transition:color .15s}
+.field:hover,.field[aria-pressed="true"]{background:var(--accent-soft)}
+.field[aria-pressed="true"] .n,.field:hover .n{color:var(--accent)}
+.field:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+.note{margin:14px 2px 0;min-height:3.3em;font-size:.95rem;color:var(--muted);max-width:52em}
+.note em{font-family:var(--serif);color:var(--ink)}
+@media (max-width:760px){
+  .sentence{grid-template-columns:1fr 1fr}
+  .field{border-bottom:1px solid var(--line)}
+  .field:last-child{grid-column:1/-1;border-bottom:0}
+}
+
+/* sections */
+.section{padding:56px 0;border-top:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:240px 1fr;gap:64px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.tags li{font-size:.88rem;padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+.projects{list-style:none;margin:0;padding:0}
+.projects li{display:grid;grid-template-columns:minmax(0,15rem) 1fr;gap:32px;padding:22px 0;border-bottom:1px solid var(--line)}
+.projects li:first-child{padding-top:0}
+.projects li:last-child{border-bottom:0;padding-bottom:0}
+.projects h3{font-family:var(--serif);font-weight:500;font-size:1.2rem;margin:0}
+.projects p{margin:0;color:var(--muted)}
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr;gap:36px;padding:48px 0 32px}
+  .portrait{max-width:220px}
+  .cols{grid-template-columns:1fr;gap:20px}
+  .projects li{grid-template-columns:1fr;gap:6px}
+}
+
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav aria-label="Main">
+      <a class="brand" href="/">Soonha Hwang</a>
+      <ul>
+        <li><a href="/publications/">Publications</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/teaching/">Teaching</a></li>
+        <li><a href="/awards/">Awards</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Soonha Hwang</h1>
+        <p class="role"><strong>Assistant Professor of German Linguistics</strong>
+          Department of German Language and Literature, Hanyang University</p>
+        <p class="lede">I study <b>variation and structural choice in German</b>, with a focus on syntax, word order, and argument structure. My work combines corpus linguistics and quantitative methods with theoretically motivated analysis.</p>
+        <div class="links">
+          <a class="btn primary" href="/publications/">Publications</a>
+          <a class="btn" href="/projects/">Research</a>
+          <a class="btn" href="https://orcid.org/0009-0004-8275-9690">ORCID</a>
+          <a class="btn" href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a>
+        </div>
+      </div>
+      <img class="portrait" src="/assets/profile.jpg" alt="Portrait of Soonha Hwang">
+    </section>
+
+    <section class="fields" aria-labelledby="fh">
+      <h2 id="fh">One sentence, five fields</h2>
+      <p class="sub">German clauses are organised into topological fields. Select a field to see where my research looks.</p>
+      <div class="sentence" role="group" aria-label="German sentence divided into topological fields">
+        <button class="field" aria-pressed="false" data-i="0"><span class="w">Gestern</span><span class="n">Vorfeld</span></button>
+        <button class="field" aria-pressed="false" data-i="1"><span class="w">hat</span><span class="n">Linke Satzklammer</span></button>
+        <button class="field" aria-pressed="false" data-i="2"><span class="w">er ein Buch</span><span class="n">Mittelfeld</span></button>
+        <button class="field" aria-pressed="false" data-i="3"><span class="w">gelesen,</span><span class="n">Rechte Satzklammer</span></button>
+        <button class="field" aria-pressed="false" data-i="4"><span class="w">das alle empfohlen haben.</span><span class="n">Nachfeld</span></button>
+      </div>
+      <p class="note" id="note" aria-live="polite">Select a field above.</p>
+    </section>
+
+    <section class="section">
+      <div class="cols">
+        <h2>Research</h2>
+        <ul class="tags">
+          <li>German Syntax</li><li>Corpus Linguistics</li><li>Linguistic Variation</li>
+          <li>Word Order</li><li>Argument Structure</li><li>Constructional Alternations</li><li>Computational Methods</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="cols">
+        <h2>Current projects</h2>
+        <ul class="projects">
+          <li><h3>Relative clause extraposition</h3><p>Corpus-based analysis of constituent position, length, and extraposition in German.</p></li>
+          <li><h3>Locative alternation</h3><p>Factors governing the choice between <em>laden auf</em> and <em>beladen mit</em>.</p></li>
+          <li><h3>Word-order variation</h3><p>Data-driven and explainable approaches to variation in German word order.</p></li>
+          <li><h3>Language and social meaning</h3><p>Pragmatic variation, linguistic stereotyping, and multilingual communication.</p></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Soonha Hwang</span>
+    <span>German Syntax · Corpus Linguistics · Linguistic Variation</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var notes=[
+    "<em>Vorfeld</em>: the position before the finite verb. Which constituent goes first, and why, is a classic question of word-order variation.",
+    "<em>Linke Satzklammer</em>: holds the finite verb and anchors the clause structure.",
+    "<em>Mittelfeld</em>: where arguments are ordered. Argument structure and word-order variation meet here.",
+    "<em>Rechte Satzklammer</em>: holds the non-finite verb and closes the bracket.",
+    "<em>Nachfeld</em>: the position after the bracket. Relative clause extraposition lives here, and it is the focus of one of my current corpus projects."
+  ];
+  var btns=document.querySelectorAll('.field'),note=document.getElementById('note');
+  function pick(i){
+    btns.forEach(function(b,j){b.setAttribute('aria-pressed',i===j?'true':'false')});
+    note.innerHTML=notes[i];
+  }
+  btns.forEach(function(b,i){b.addEventListener('click',function(){pick(i)})});
+  pick(4);
+})();
+</script>
+</body>
+</html>
