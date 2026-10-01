@@ -1,0 +1,416 @@
+---
+---
+
+@import "minima";
+
+/* =========================================================
+   Soonha Hwang — Academic Homepage
+   Clean / Minimal / Researcher Portfolio
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. Global
+   --------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  color: #2d2d2d;
+  background-color: #ffffff;
+
+  font-size: 16px;
+  line-height: 1.75;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* ---------------------------------------------------------
+   2. Overall page width
+   --------------------------------------------------------- */
+
+.wrapper {
+  max-width: 940px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+
+/* ---------------------------------------------------------
+   3. Header
+   --------------------------------------------------------- */
+
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid #eeeeee;
+  min-height: 68px;
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+}
+
+
+/* Site name */
+
+.site-title,
+.site-title:visited {
+  color: #202020;
+  font-size: 1.28rem;
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.site-title:hover {
+  text-decoration: none;
+  color: #526d82;
+}
+
+
+/* ---------------------------------------------------------
+   4. Navigation
+   --------------------------------------------------------- */
+
+.site-nav {
+  line-height: normal;
+}
+
+.site-nav .page-link {
+  color: #555555;
+  font-size: 0.93rem;
+  font-weight: 450;
+  margin-left: 24px;
+  letter-spacing: 0.005em;
+}
+
+.site-nav .page-link:hover {
+  color: #1f4f6f;
+  text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------
+   5. Main content
+   --------------------------------------------------------- */
+
+.page-content {
+  padding-top: 58px;
+  padding-bottom: 80px;
+}
+
+.post-content {
+  margin-bottom: 50px;
+}
+
+
+/* ---------------------------------------------------------
+   6. Typography
+   --------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #202020;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-size: 2.35rem;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.45rem;
+  margin-top: 3.2rem;
+  margin-bottom: 1.35rem;
+
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+
+/* Strong text */
+
+strong {
+  font-weight: 600;
+  color: #202020;
+}
+
+
+/* ---------------------------------------------------------
+   7. Links
+   --------------------------------------------------------- */
+
+a {
+  color: #386985;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:visited {
+  color: #386985;
+}
+
+a:hover {
+  color: #1f4b66;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+
+/* ---------------------------------------------------------
+   8. Homepage profile image
+   --------------------------------------------------------- */
+
+.post-content img[alt="Soonha Hwang"] {
+  border-radius: 10px;
+  max-width: 210px;
+  height: auto;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.06),
+    0 10px 28px rgba(0, 0, 0, 0.05);
+}
+
+
+/* ---------------------------------------------------------
+   9. Lists
+   --------------------------------------------------------- */
+
+ul,
+ol {
+  margin-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+.post-content ul > li::marker {
+  color: #8a9aa5;
+}
+
+
+/* ---------------------------------------------------------
+   10. Publications
+   --------------------------------------------------------- */
+
+.post-content p {
+  max-width: 850px;
+}
+
+/*
+   Makes long publication entries easier to read.
+   Each paragraph gets subtle separation without looking
+   like a boxed CV.
+*/
+
+.post-content p + p {
+  margin-top: 1.15rem;
+}
+
+
+/* Italic journal names */
+
+em {
+  color: #333333;
+}
+
+
+/* ---------------------------------------------------------
+   11. Horizontal rules
+   --------------------------------------------------------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid #e7e7e7;
+  margin: 3rem 0;
+}
+
+
+/* ---------------------------------------------------------
+   12. Blockquotes
+   --------------------------------------------------------- */
+
+blockquote {
+  border-left: 3px solid #9caeb9;
+  color: #666666;
+  padding-left: 1.25rem;
+  margin-left: 0;
+  font-style: normal;
+}
+
+
+/* ---------------------------------------------------------
+   13. Footer
+   --------------------------------------------------------- */
+
+.site-footer {
+  border-top: 1px solid #eeeeee;
+  padding-top: 28px;
+  padding-bottom: 32px;
+  color: #777777;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444444;
+}
+
+.site-footer,
+.site-footer p,
+.site-footer li {
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.site-footer a {
+  color: #666666;
+}
+
+.site-footer a:hover {
+  color: #315f7a;
+}
+
+
+/* ---------------------------------------------------------
+   14. Remove unnecessary Minima visual weight
+   --------------------------------------------------------- */
+
+.post-header {
+  margin-bottom: 32px;
+}
+
+.post-title {
+  font-size: 2.3rem;
+}
+
+.svg-icon {
+  fill: #777777;
+}
+
+
+/* ---------------------------------------------------------
+   15. Selection color
+   --------------------------------------------------------- */
+
+::selection {
+  background-color: #dce7ed;
+  color: #202020;
+}
+
+
+/* ---------------------------------------------------------
+   16. Responsive / mobile
+   --------------------------------------------------------- */
+
+@media screen and (max-width: 720px) {
+
+  .wrapper {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .page-content {
+    padding-top: 38px;
+    padding-bottom: 55px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.32rem;
+    margin-top: 2.6rem;
+  }
+
+  .site-header .wrapper {
+    display: block;
+  }
+
+  .site-title {
+    line-height: 68px;
+  }
+
+  .site-nav .page-link {
+    margin-left: 18px;
+  }
+
+  /*
+   Homepage profile section:
+   Minima + inline flex layout becomes stacked on smaller screens.
+  */
+
+  .post-content > div[style*="display: flex"] {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    gap: 24px !important;
+  }
+
+  .post-content img[alt="Soonha Hwang"] {
+    max-width: 170px;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   17. Very small screens
+   --------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+  body {
+    font-size: 15.5px;
+  }
+
+  .wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .site-nav .page-link {
+    margin-left: 12px;
+    font-size: 0.9rem;
+  }
+
+  .post-content img[alt="Soonha Hwang"] {
+    max-width: 150px;
+  }
+}
