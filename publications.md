@@ -18,7 +18,7 @@ Forthcoming. Ist _nihao_ nur ein Grußwort? Ausgrenzung durch sprachliche Stereo
 
 ## Korean Journal Articles
 
-2025.12. [Potenziale und Grenzen von KI-basierter Erstellung niveaugerechter Lerntexte: Evaluation der ChatGPT-basierten Niveausteuerung deutscher Texte](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003289342). (with Gayeon Choi, Jiwoo Lee, Jiin Jeong and Sungeun Lee). In: _Deutsch als Fremdsprache in Korea_ 57, 125–154.
+2025.12. [Potenziale und Grenzen von KI-basierter Erstellung niveaugerechter Lerntexte: Evaluation der ChatGPT-basierten Niveausteuerung deutscher Texte](10.31302/KGDaF.57.5). (with Gayeon Choi, Jiwoo Lee, Jiin Jeong and Sungeun Lee). In: _Deutsch als Fremdsprache in Korea_ 57, 125–154.
 
 2025.02. [Aufnahme und Perspektiven koreanischer Kulturinhalte in Deutschland: Am Beispiel von K-Pop, K-Filmen und K-Dramen in Deutschland](10.23039/ndl.2025..64.125). (with Youngho Jung and Min Jung Oh). In: _Neuere Deutsche Literatur_ 64, 125–147.
 
