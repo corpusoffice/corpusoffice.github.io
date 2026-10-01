@@ -29,7 +29,7 @@ Forthcoming. Ist _nihao_ nur ein Grußwort? Ausgrenzung durch sprachliche Stereo
 
 2024.03. [Typen der Konjunktionaladverbien in atypischen Positionen und Probleme bei der Wortartenklassifikation: Fokussierung auf die Beispiele von _trotzdem_, _dennoch_, _deshalb_ und _deswegen_](https://doi.org/10.24830/kgd.32.1.1). In: _Deutsche Sprach- und Literaturwissenschaft_ 32(1), 1–26.
 
-2023.12. [Metasprachliche Funktionen von _Das ist ein Witz_: Eine Korpusanalyse anhand des Bundestags- und Zeitungskorpus](10.24814/kgds.2015..31.99). In: _Koreanische Zeitschrift für Germanistik_ 64(4), 147–166.
+2023.12. [Metasprachliche Funktionen von _Das ist ein Witz_: Eine Korpusanalyse anhand des Bundestags- und Zeitungskorpus](https://doi.org/10.24814/kgds.2015..31.99). In: _Koreanische Zeitschrift für Germanistik_ 64(4), 147–166.
 
 2015.06. [Über die Beziehung zwischen den semantischen Distributionen und den Textsorten der polysemen Verben](https://doi.org/10.24814/kgds.2015..31.99). (with Minhaeng Lee and Kwang-sin Jee). In: _Zeitschrift der Koreanischen Gesellschaft für Deutsche Sprachwissenschaft_ 31, 99–119.
 
