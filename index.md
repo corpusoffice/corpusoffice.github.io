@@ -3,42 +3,37 @@ layout: page
 title: Soonha Hwang
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 48px; margin-bottom: 48px;">
+<div class="home-hero">
 
-  <div style="flex: 1; min-width: 0;">
+  <div class="home-intro">
 
-    <p style="font-size: 1.22rem; line-height: 1.6; margin-top: 0;">
+    <p class="home-position">
       <strong>Assistant Professor of German Linguistics</strong><br>
       Department of German Language and Literature<br>
       Hanyang University
     </p>
 
-    <p style="font-size: 1.06rem; line-height: 1.8; margin-top: 28px;">
+    <p class="home-description">
       I study <strong>variation and structural choice in German</strong>,
       with a particular focus on syntax, word order, and argument structure.
-      My research combines corpus linguistics and quantitative methods
+      My work combines corpus linguistics and quantitative methods
       with theoretically motivated linguistic analysis.
     </p>
 
-    <p style="margin-top: 26px;">
+    <div class="profile-links">
       <a href="/publications/">Publications</a>
-      &nbsp;·&nbsp;
       <a href="/projects/">Research</a>
-      &nbsp;·&nbsp;
       <a href="https://orcid.org/0009-0004-8275-9690">ORCID</a>
-      &nbsp;·&nbsp;
       <a href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a>
-    </p>
+    </div>
 
   </div>
 
-  <div style="flex-shrink: 0;">
+  <div>
     <img
+      class="profile-photo"
       src="/assets/profile.jpg"
-      alt="Soonha Hwang"
-      width="210"
-      style="border-radius: 8px;"
-    >
+      alt="Soonha Hwang">
   </div>
 
 </div>
@@ -46,20 +41,39 @@ title: Soonha Hwang
 
 ## Research
 
-**German Syntax** · **Corpus Linguistics** · **Linguistic Variation**  
-Word Order · Argument Structure · Constructional Alternations · Computational Methods
+<div class="research-tags">
+  <span class="research-tag">German Syntax</span>
+  <span class="research-tag">Corpus Linguistics</span>
+  <span class="research-tag">Linguistic Variation</span>
+  <span class="research-tag">Word Order</span>
+  <span class="research-tag">Argument Structure</span>
+  <span class="research-tag">Constructional Alternations</span>
+  <span class="research-tag">Computational Methods</span>
+</div>
 
 
-## Current Research
+## Current Projects
 
-**Relative Clause Extraposition**  
-Corpus-based analysis of constituent position, length, and extraposition in German.
+<div class="project-grid">
 
-**Locative Alternation**  
-Factors governing the choice between _laden auf_ and _beladen mit_.
+  <div class="project-card">
+    <span class="project-title">Relative Clause Extraposition</span>
+    <p>Corpus-based analysis of constituent position, length, and extraposition in German.</p>
+  </div>
 
-**Word-Order Variation**  
-Data-driven and explainable approaches to variation in German word order.
+  <div class="project-card">
+    <span class="project-title">Locative Alternation</span>
+    <p>Factors governing the choice between <em>laden auf</em> and <em>beladen mit</em>.</p>
+  </div>
 
-**Language and Social Meaning**  
-Pragmatic variation, linguistic stereotyping, and multilingual communication.
+  <div class="project-card">
+    <span class="project-title">Word-Order Variation</span>
+    <p>Data-driven and explainable approaches to variation in German word order.</p>
+  </div>
+
+  <div class="project-card">
+    <span class="project-title">Language and Social Meaning</span>
+    <p>Pragmatic variation, linguistic stereotyping, and multilingual communication.</p>
+  </div>
+
+</div>
