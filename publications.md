@@ -10,7 +10,7 @@ Forthcoming. Nähe und Länge in Konkurrenz? – Zur Interaktion von Antezedensp
 
 Forthcoming. Ist _nihao_ nur ein Grußwort? Ausgrenzung durch sprachliche Stereotypisierung. (with Sarnai Chuluunbat-Kath, Chaomin Zheng and Karin Pittner). In: _Studia Linguistica_.
 
-2024.12. Genitivvariation bei sekundären Präpositionen: Eine korpusbasierte Analyse am Beispiel von _innerhalb_ und _außerhalb_. with Karin Pittner. In: _Muttersprache_ 134(4), 297–317.
+2024.12. Genitivvariation bei sekundären Präpositionen: Eine korpusbasierte Analyse am Beispiel von _innerhalb_ und _außerhalb_. (with Karin Pittner). In: _Muttersprache_ 134(4), 297–317.
 
 2024.06. Pronominale und nominale Anredeformen: Eine sprachvergleichende Studie Chinesisch – Koreanisch – Mongolisch – Deutsch. (with Karin Pittner, Sarnai Chuluunbat-Kath, Xiao Xiao and Chaomin Zheng). In: _Deutsche Sprache_ 52(1), 1–37.
 
