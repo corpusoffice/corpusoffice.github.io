@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Soonha Hwang | German Syntax · Corpus Linguistics · Linguistic Variation</title>
-<meta name="description" content="German Syntax · Corpus Linguistics · Linguistic Variation">
+<title>Corpus Office | Soonha Hwang Lab · Hanyang University</title>
+<meta name="description" content="Corpus Office — Soonha Hwang Lab at Hanyang University. German syntax, linguistic variation, corpus research, and graduate research training.">
 <link rel="canonical" href="https://corpusoffice.github.io/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,18 +89,40 @@ nav ul a:hover{color:var(--ink);border-color:var(--accent)}
 
 footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* Lab identity and graduate research */
+.brand-sub{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.16em;color:var(--muted);margin-top:2px}
+.eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.16em;color:var(--accent);margin:0 0 18px}
+.hero{grid-template-columns:minmax(0,1fr) 310px;gap:48px}
+.hero-card{background:var(--accent-soft);border:1px solid var(--line);padding:30px 24px;border-radius:10px}
+.card-question{font-family:var(--serif);font-size:1.85rem;line-height:1.2;margin:24px 0 32px}
+.approach-item{border-top:1px solid var(--line);padding:13px 0;font-size:.84rem}
+.approach-item span{color:var(--accent);margin-right:12px;font-size:.7rem}
+.person{display:grid;grid-template-columns:145px minmax(0,1fr);gap:28px}
+h3{font-family:var(--serif);font-size:1.4rem;font-weight:500;margin:0 0 12px}
+.person h3 span{font-family:var(--sans);font-size:.95rem;color:var(--muted);margin-left:6px}
+.person p{color:var(--muted);margin:0 0 18px}
+.join{margin-bottom:50px;padding:40px 28px;background:var(--accent-soft);border:1px solid var(--line);border-radius:10px}
+.join-lede{font-size:1.18rem;line-height:1.8;margin-top:0}
+details{border-top:1px solid var(--line);padding:16px 0}
+summary{cursor:pointer;font-weight:600}
+details p{color:var(--muted);margin:12px 0 0}
+section[id],h2[id]{scroll-margin-top:24px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;gap:26px}.hero-card{max-width:none}.join{padding:28px 20px}.person{grid-template-columns:1fr}.person .portrait{max-width:145px}nav ul{gap:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
     <nav aria-label="Main">
-      <a class="brand" href="/">Soonha Hwang</a>
+      <a class="brand" href="#home">Corpus Office<span class="brand-sub">SOONHA HWANG LAB</span></a>
       <ul>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#people">People</a></li>
         <li><a href="/publications/">Publications</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/teaching/">Teaching</a></li>
-        <li><a href="/awards/">Awards</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#join">Join us</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
     </nav>
@@ -109,25 +131,31 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <main>
   <div class="wrap">
-    <section class="hero">
+    <section class="hero" id="home">
       <div>
-        <h1>Soonha Hwang</h1>
-        <p class="role"><strong>Assistant Professor of German Linguistics</strong>
-          Department of German Language and Literature, Hanyang University</p>
-        <p class="lede">I study <b>variation and structural choice in German</b>, with a focus on syntax, word order, and argument structure. My work combines corpus linguistics and quantitative methods with theoretically motivated analysis.</p>
+        <p class="eyebrow">LANGUAGE · VARIATION · DATA</p>
+        <h1>Corpus Office</h1>
+        <p class="role"><strong>Soonha Hwang Lab</strong>
+          Department of German Language and Literature<br>Hanyang University</p>
+        <p class="lede">How do speakers choose between <b>alternative linguistic forms</b>? We investigate language variation through corpus data, quantitative methods, and linguistic theory, with a particular focus on German.</p>
         <div class="links">
-          <a class="btn primary" href="/publications/">Publications</a>
-          <a class="btn" href="/projects/">Research</a>
-          <a class="btn" href="https://orcid.org/0009-0004-8275-9690">ORCID</a>
-          <a class="btn" href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a>
+          <a class="btn primary" href="#join">Explore graduate research</a>
+          <a class="btn" href="#research">Our research</a>
+          <a class="btn" href="/publications/">Publications</a>
         </div>
       </div>
-      <img class="portrait" src="/assets/profile.jpg" alt="Portrait of Soonha Hwang">
+      <aside class="hero-card" aria-label="Research approach">
+        <span class="eyebrow">OUR APPROACH</span>
+        <p class="card-question">From language data<br>to linguistic explanation.</p>
+        <div class="approach-item"><span>01</span> Ask a linguistic question</div>
+        <div class="approach-item"><span>02</span> Examine corpus evidence</div>
+        <div class="approach-item"><span>03</span> Model and interpret variation</div>
+      </aside>
     </section>
 
     <section class="fields" aria-labelledby="fh">
       <h2 id="fh">One sentence, five fields</h2>
-      <p class="sub">German clauses are organised into topological fields. Select a field to see where my research looks.</p>
+      <p class="sub">German clauses are organised into topological fields. Select a field to explore the questions behind our research.</p>
       <div class="sentence" role="group" aria-label="German sentence divided into topological fields">
         <button class="field" aria-pressed="false" data-i="0"><span class="w">Gestern</span><span class="n">Vorfeld</span></button>
         <button class="field" aria-pressed="false" data-i="1"><span class="w">hat</span><span class="n">Linke Satzklammer</span></button>
@@ -140,7 +168,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
     <section class="section">
       <div class="cols">
-        <h2>Research</h2>
+        <h2 id="research">Research</h2>
         <ul class="tags">
           <li>German Syntax</li><li>Corpus Linguistics</li><li>Linguistic Variation</li>
           <li>Word Order</li><li>Argument Structure</li><li>Constructional Alternations</li><li>Computational Methods</li>
@@ -150,7 +178,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
     <section class="section">
       <div class="cols">
-        <h2>Current projects</h2>
+        <h2>Research projects</h2>
         <ul class="projects">
           <li><h3>Relative clause extraposition</h3><p>Corpus-based analysis of constituent position, length, and extraposition in German.</p></li>
           <li><h3>Locative alternation</h3><p>Factors governing the choice between <em>laden auf</em> and <em>beladen mit</em>.</p></li>
@@ -159,12 +187,56 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         </ul>
       </div>
     </section>
+    <section class="section" id="people">
+      <div class="cols">
+        <div><p class="eyebrow">PEOPLE</p><h2>Meet the PI</h2></div>
+        <div class="person">
+          <img class="portrait" src="/assets/profile.jpg" alt="Portrait of Soonha Hwang" loading="lazy">
+          <div><h3>Soonha Hwang <span lang="ko">황순하</span></h3>
+            <p>Assistant Professor of German Linguistics<br>Department of German Language and Literature, Hanyang University</p>
+            <p>My research focuses on German syntax, word order, and argument structure, using corpus evidence and quantitative analysis to explain linguistic choices.</p>
+            <div class="links"><a class="btn" href="https://orcid.org/0009-0004-8275-9690">ORCID</a><a class="btn" href="https://www.researchgate.net/profile/Soonha-Hwang-2">ResearchGate</a><a class="btn" href="/awards/">Awards</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="training">
+      <div class="cols">
+        <div><p class="eyebrow">TEACHING &amp; TRAINING</p><h2>Learn to investigate language.</h2></div>
+        <div>
+          <p class="sub">Research training connects linguistic questions with practical data analysis: reading studies critically, reproducing analyses, and developing a research question of your own.</p>
+          <ul class="projects">
+            <li><h3>Corpus research</h3><p>Corpus design, annotation, and querying with tools such as CWB and CQP.</p></li>
+            <li><h3>Quantitative analysis</h3><p>Data exploration, visualisation, and statistical modelling in R.</p></li>
+            <li><h3>Language data processing</h3><p>Working with Python, lemmatisation, and NLP tools such as spaCy.</p></li>
+            <li><h3>Reproducible research</h3><p>Documenting analytical choices and connecting results to linguistic explanations.</p></li>
+          </ul>
+          <p><a href="/teaching/">Explore teaching →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section join" id="join">
+      <div class="cols">
+        <div><p class="eyebrow">JOIN US</p><h2>Your next research question starts here.</h2></div>
+        <div>
+          <p class="join-lede" lang="ko">언어의 다양한 표현과 그 선택 이유가 궁금한가요?<br>언어학과 데이터 분석을 연결하는 대학원 연구에 관심 있는 분들의 문의를 환영합니다.</p>
+          <p>Prospective graduate students interested in German linguistics, corpus research, and linguistic variation are welcome to get in touch to discuss research interests and supervision.</p>
+          <details open><summary lang="ko">어떤 주제로 연구할 수 있나요?</summary><p lang="ko">독일어 어순과 문장구조, 구문 대체, 코퍼스 기반 언어변이, 언어 사용의 사회적·화용적 조건 등을 중심으로 연구주제를 논의할 수 있습니다.</p></details>
+          <details><summary lang="ko">코딩 경험이 꼭 필요한가요?</summary><p lang="ko">프로그래밍 경험이 없다면 현재의 언어학적 관심과 배우고 싶은 분석 방법을 알려주세요. 연구주제에 필요한 준비와 학습 방향을 함께 논의할 수 있습니다.</p></details>
+          <details><summary lang="ko">진학 문의에는 무엇을 보내면 좋을까요?</summary><p lang="ko">간단한 자기소개, 관심 있는 연구주제, 희망 학위과정과 진학 시기를 알려주세요. 관련 수업이나 데이터 분석 경험이 있다면 함께 적어주시면 좋습니다.</p></details>
+          <p class="sub" lang="ko">입학 절차와 일정은 한양대학교 대학원의 공식 모집요강을 확인해 주세요. 지도 가능 여부와 연구비·장학금 지원은 문의 시 개별적으로 확인합니다.</p>
+          <div class="links"><a class="btn primary" href="/contact/">Contact Soonha Hwang · 진학 문의</a></div>
+        </div>
+      </div>
+    </section>
   </div>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>Soonha Hwang</span>
+    <span>Corpus Office · Soonha Hwang Lab<br>Hanyang University</span>
     <span>German Syntax · Corpus Linguistics · Linguistic Variation</span>
   </div>
 </footer>
@@ -176,7 +248,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     "<em>Linke Satzklammer</em>: holds the finite verb and anchors the clause structure.",
     "<em>Mittelfeld</em>: where arguments are ordered. Argument structure and word-order variation meet here.",
     "<em>Rechte Satzklammer</em>: holds the non-finite verb and closes the bracket.",
-    "<em>Nachfeld</em>: the position after the bracket. Relative clause extraposition lives here, and it is the focus of one of my current corpus projects."
+    "<em>Nachfeld</em>: the position after the bracket. Relative clause extraposition lives here, and it is the focus of a current corpus research project."
   ];
   var btns=document.querySelectorAll('.field'),note=document.getElementById('note');
   function pick(i){
